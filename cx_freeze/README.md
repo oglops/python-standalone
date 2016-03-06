@@ -5,4 +5,6 @@ cx_freeze 版本
 
 Usage
 ------------------
-  python setup.py build
+```bash
+    python setup.py build
+```
