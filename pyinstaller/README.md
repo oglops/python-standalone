@@ -9,11 +9,12 @@ lz由于不能确定x64的python 2.7.11会不会比原作者的module列表要�
 
 和原作者类似，lz也安装了psutil pypiwin32， python版本是2.7.11 x64,此外打包过程中似乎需要six module
 
-  pip install six
+    pip install six
 
 Usage
 ------------------
-  pyinstaller --onefile  py.py
 
-  # 上面的命令会生成py.spec 如果需要进一步自定义，可以修改他之后
-  pyinstaller --onefile  py.spec
+    pyinstaller --onefile  py.py
+
+    # 上面的命令会生成py.spec 如果需要进一步自定义，可以修改他之后
+    pyinstaller --onefile  py.spec
