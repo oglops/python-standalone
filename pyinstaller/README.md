@@ -7,6 +7,10 @@ lz由于不能确定x64的python 2.7.11会不会比原作者的module列表要�
 
 现在的moudules列表出来的py.exe约14mb,比原作者的9mb大很多，所以如果有不需要的module可以继续去掉以减小体积
 
+和原作者类似，lz也安装了psutil pypiwin32， python版本是2.7.11 x64,此外打包过程中似乎需要six module
+
+  pip install six
+
 Usage
 ------------------
   pyinstaller --onefile  py.py
